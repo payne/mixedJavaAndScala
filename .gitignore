@@ -1,0 +1,9 @@
+bin/
+build/
+.gradle/
+.settings/
+.cache-main
+.cache-tests
+.classpath
+.project
+.settings
