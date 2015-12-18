@@ -7,5 +7,7 @@ import sample2.Person
  */
 class PersonImpl(val name: String) extends Person
 {
+    println("Hey!   this is some scala running now.  :-)")
+
     def getName() = name
 }
