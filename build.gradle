@@ -1,13 +1,15 @@
 apply plugin: 'scala'
 apply plugin: 'eclipse'
 
-version = 1.0
+
 
 repositories {
     mavenCentral()
+    mavenLocal()
 }
 
 dependencies {
     compile 'org.scala-lang:scala-library:2.11.1'
     testCompile 'junit:junit:4.12'
+    testCompile 'org.testinfected.hamcrest-matchers:hamcrest-matchers:1.8'
 }

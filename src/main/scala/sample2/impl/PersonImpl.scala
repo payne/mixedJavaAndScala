@@ -1,6 +1,6 @@
-package org.gradle.sample.impl
+package sample2.impl
 
-import org.gradle.sample.Person
+import sample2.Person
 
 /**
  * Immutable implementation of {@link Person}.

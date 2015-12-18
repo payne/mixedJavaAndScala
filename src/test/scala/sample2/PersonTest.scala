@@ -1,8 +1,7 @@
-package org.gradle.sample
+package sample2
 
 import _root_.junit.framework.TestCase
-import _root_.org.gradle.sample.impl.PersonImpl
-import _root_.org.gradle.sample.impl.JavaPerson
+import sample2.impl.{JavaPerson, PersonImpl}
 
 class PersonTest extends TestCase {
 
